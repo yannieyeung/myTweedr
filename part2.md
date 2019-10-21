@@ -22,6 +22,10 @@ Add the above functionality.
 
 ##### 1. the DB model methods
 
+##### createPayment
+
+##### getPayment
+
 ##### getUserSentPayments / getUserRecievedPayments
 
 ```js
