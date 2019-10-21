@@ -22,6 +22,8 @@ Add the above functionality.
 
 ##### 1. the DB model methods
 
+##### getUserSentPayments / getUserRecievedPayments
+
 ```js
 db.payments.getUserSentPayments( recipient_id, (error, payments) => { ...
 db.payments.getUserRecievedPayments( sender_id, (error, payments) => { ...
@@ -44,6 +46,10 @@ const payments = [
 ];
 ```
 
+<hr/>
+
+##### getPaymentTotalByRecipient
+
 ```js
 db.payments.getPaymentTotalByRecipient( recipient_id, (error, total) => { ...
 ```
@@ -54,6 +60,8 @@ let recipient_id = 4;
 
 // total should be 1601
 ```
+<hr/>
+##### getPaymentTotalBySender
 
 
 ```js
@@ -66,6 +74,8 @@ let sender_id = 8;
 
 // total should be 8
 ```
+<hr/>
+
 
 ##### 2. controllers and views
 
