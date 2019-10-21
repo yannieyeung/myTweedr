@@ -22,6 +22,8 @@ Add the above functionality.
 
 ##### 1. the DB model methods
 
+##### Edit tables.sql and seed.sql
+
 ##### createPayment
 
 ##### getPayment
