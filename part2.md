@@ -60,7 +60,9 @@ let recipient_id = 4;
 
 // total should be 1601
 ```
+
 <hr/>
+
 ##### getPaymentTotalBySender
 
 
@@ -74,6 +76,7 @@ let sender_id = 8;
 
 // total should be 8
 ```
+
 <hr/>
 
 
